@@ -25,3 +25,6 @@ const array = [2, 5, 9, 10, 2, 1, 3, 4, 5, 2, 1, 0, 12, 11]
 
 let sortedArray = quicksort(array)
 console.log(sortedArray)
+
+// Remove duplicates
+console.log([...new Set(sortedArray)])
